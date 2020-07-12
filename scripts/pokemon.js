@@ -1,4 +1,5 @@
-let allImages = ['meowth.png', 'pikachu.png', 'squirtle.png'];
+let allImages =    ['meowth.png', 'pikachu.png', 'squirtle.png', 'gengar.png',
+					'charmeleon.png', 'gyarados.png', 'snorlax.png'];
 let imgIndex = 0;
 let pokemonImage = document.querySelector('img');
 
