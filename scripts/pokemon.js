@@ -10,4 +10,4 @@ function changeImage() {
 }
 
 pokemonImage.onclick = changeImage;
-changeImage()
+changeImage();

@@ -19,6 +19,4 @@ if(!localStorage.getItem('username')) {
 	myHeading.textContent = 'Welcome to my website, ' + storedName + '!';
 }
 
-myButton.onclick = function() {
-	setUsername();
-}
+myButton.onclick = setUsername;
