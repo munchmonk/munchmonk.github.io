@@ -1,0 +1,40 @@
+html {
+	background-color: #657bd6;
+	font-family: 'Baloo Da 2', cursive;
+	font-size: 20px;
+}
+
+body {
+	background-color: #a99854;
+	color: #ffe88c;
+	width: 600px;
+	margin: 0 auto;
+	padding: 0px 50px;
+	border: 5px solid black;
+}
+
+footer {
+	text-align: center;
+	font-size: 16px;
+}
+
+h1 {
+	text-align: center;
+	margin: 0;
+	padding: 20px 0 0 0;
+}
+
+h3 {
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
+}
+
+a {
+	color: #ffe88c;
+}
+
+figcaption {
+	text-align: center;
+}
+
