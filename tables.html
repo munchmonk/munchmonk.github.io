@@ -12,11 +12,9 @@
 		<meta property="og:title" content="The best website on the internet, now with Pokémon.">
 
 		<link href="styles/main-style.css" rel="stylesheet">
-		<link href="styles/pokemon-gallery.css" rel="stylesheet">
+		<link href="styles/tables.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap" rel="stylesheet">
 		<link href="pokeball-icon.ico" rel="shortcut icon" type="image/x-icon">
-
-		<script src="scripts/pokemon-gallery.js" defer></script>
 
 		<title>The best website on the internet</title>
 	</head>
@@ -31,16 +29,48 @@
 				<a class="navigation-bar" href="tables.html" title="Type effectiveness table">Tables</a>
 			</nav>
 
-			<h1>Here are some amazing Pokémon!</h1>
+			<h1>Type chart (simplified)</h1>
 		</header>
 
 		<main>
-			<h3>Click the Pokémon to see a new one</h3>
-			<figure>
-				<img src="" alt="Images of various Pokémon. The Pokémon displayed changes when the image is clicked." title="A very cool Pokémon!">
-				<figcaption>
-				</figcaption>
-			</figure>
+			<table>
+				<caption>Move effectiveness against different types</caption>
+				<tr>
+					<th></th>
+					<th>Water</th>
+					<th>Fire</th>
+					<th>Grass</th>
+					<th>Dragon</th>
+				</tr>
+				<tr>
+					<th>Water</th>
+					<td>0.5</td>
+					<td>2</td>
+					<td>0.5</td>
+					<td>0.5</td>
+				</tr>
+				<tr>
+					<th>Fire</th>
+					<td>0.5</td>
+					<td>0.5</td>
+					<td>2</td>
+					<td>0.5</td>
+				</tr>
+				<tr>
+					<th>Grass</th>
+					<td>2</td>
+					<td>0.5</td>
+					<td>0.5</td>
+					<td>0.5</td>
+				</tr>
+				<tr>
+					<th>Dragon</th>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>2</td>
+				</tr>
+			</table>
 		</main>
 
 		<footer>
